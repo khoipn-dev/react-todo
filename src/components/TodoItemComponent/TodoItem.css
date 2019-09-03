@@ -1,0 +1,47 @@
+.TodoItem {
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 300;
+  font-size: 20px;
+  color: #4d4d4d;
+  display: flex;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.TodoItemComplete {
+  text-decoration: line-through;
+  opacity: .4;
+}
+
+.TodoItem > p {
+  margin: 0;
+  padding: 15px 5px;
+  text-overflow: ellipsis;
+  width: 90%;
+}
+
+.tick-complete {
+  margin: 10px;
+}
+
+.TodoItem:last-child {
+  border-bottom: none;
+}
+
+.clear-button {
+  margin: 20px;
+  float: right;
+}
+
+.edit-input {
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 300;
+  font-size: 20px;
+  color: #4d4d4d;
+  width: 90%;
+  /* border: none; */
+  /* padding-left: 10px; */
+}
+
+.edit-input:focus {
+  outline: none;
+}
